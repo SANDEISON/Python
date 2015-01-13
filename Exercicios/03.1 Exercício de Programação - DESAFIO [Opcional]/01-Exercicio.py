@@ -7,11 +7,8 @@ num = int (input ("Digite um Numero : "))
 triangular = 0
 cont = 2
 
-while triangular <= num:    
-    triangular = cont * (cont + 1 )* (cont + 2)
-    print (triangular) 
-    if triangular == num :
-        break
+while triangular < num:    
+    triangular = cont * (cont + 1 )* (cont + 2)    
     cont += 1
     
 if (triangular == num):
