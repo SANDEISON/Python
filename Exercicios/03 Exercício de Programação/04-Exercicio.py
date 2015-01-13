@@ -6,10 +6,14 @@
     F1 = 1, F2 = 1, F3 = 2, etc.
 '''
 
-a,b = 0,1
+
+''' A fórmula de Binet pode ser utilizada para o cálculo do n-ésimo número da sequência de Fibonacci:
+Link para o conteudo explicativo : http://www.matematicadidatica.com.br/SequenciaFibonacci.aspx   '''
+
+import math
 
 num = int (input ("Digite um Numero : "))
 
-while ( b < num):
-    print( b)
-    a, b = b, a+b
+fibonancci = ( 1.618034 ** num) / math.sqrt(5)
+
+print("Fibonacci : ", round (fibonancci) )

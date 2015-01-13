@@ -6,7 +6,7 @@
 name = input ("Nome de Usario:")
 senha = input ("Senha: ")
 
-while (senha == name):
+while senha == name:
     print("A senha não pode ser igual ao nome !!!")
     name = input ("Nome de Usario:")
     senha = input ("Senha: ")

@@ -6,5 +6,5 @@
 
 num = -1
 while (num < 0) or (num > 10):
-    num = int(input("Digiete um Numero  entre 0 e 10: "))
+    num = float(input("Digiete um Numero  entre 0 e 10: "))
      
